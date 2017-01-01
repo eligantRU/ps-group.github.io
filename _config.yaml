@@ -16,6 +16,9 @@ collections:
   packman:
     output: true
     permalink: '/packman/:path'
+  doodlejump:
+    output: true
+    permalink: '/doodlejump/:path'
   compilers:
     output: true
     permalink: '/compilers/:path'
@@ -30,6 +33,10 @@ defaults:
         layout: sfml
     - scope:
         type: packman
+      values:
+        layout: sfml
+    - scope:
+        type: doodlejump
       values:
         layout: sfml
     - scope:
